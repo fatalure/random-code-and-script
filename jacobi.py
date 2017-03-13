@@ -24,7 +24,7 @@ def findQR(a,n):
     """
     Naive way to find smallest X fulfilled X^2 Congruent with a (mod n)
     """
-    for i in range(1,37907/2+2):
+    for i in range(1,n/2+2):
         if (i**2)%n==a:
             return i
 
